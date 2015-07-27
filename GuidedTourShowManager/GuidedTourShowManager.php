@@ -6,7 +6,7 @@
  * @copyright 超科学代码研究社 2015
  * @license   http://opensource.org/licenses/gpl-2.0.php GNU General Public License
  * @version v2
- * @link https://github.com/moehub/Changyan4mw
+ * @link https://github.com/moehub/GuidedTourShowManager/
  */ 
 
 //注册插件信息
@@ -14,8 +14,8 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'GuidedTourShowManager',
 	'author' => '技术萌_techmoe',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:GuidedTour',
-	'descriptionmsg' => 'guidedtour-desc',
+	'url' => 'https://github.com/moehub/GuidedTourShowManager/',
+	'descriptionmsg' => 'GuidedTour呈现辅助插件',
 	'version'  => '2.0',
 );
 
