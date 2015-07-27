@@ -14,7 +14,7 @@ $wgExtensionCredits['other'][] = array(
 	'path' => __FILE__,
 	'name' => 'GuidedTourShowManager',
 	'author' => '技术萌_techmoe',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:GuidedTour',
+	'url' => 'https://github.com/moehub/GuidedTourShowManager',
 	'descriptionmsg' => 'guidedtour-desc',
 	'version'  => '2.0',
 );
