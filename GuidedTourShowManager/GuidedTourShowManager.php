@@ -27,7 +27,7 @@ class GuidedTourShowManager{
     
     //当用户的帐号成功后执行
     public static function onAddNewAccount( User $user, $byEmail ){
-        global $GTSM_Action;
+        global $GTSM_Action,$wgCookiePrefix;
         
         //构建Cookie数据
         $cookie_data=array(
@@ -39,9 +39,9 @@ class GuidedTourShowManager{
                     )
                 )
             );
-        
+            
         //存入cookie
-        setcookie('mw_mw-mw-tour',json_encode($cookie_data));
+        setcookie("$wgCookiePrefix-mw-tour",json_encode($cookie_data),time()+7776000,'/');
     }
 }
 ?>
