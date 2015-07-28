@@ -12,7 +12,7 @@ $GTSM_Action=array(
         'name' => 'tourname',
         /**
          * stepname改为当新用户注册成功后要呈现的tour的步骤名
-         * 这里对应的是tour代码中tour.step中name的值
+         * 这里对应的是tour代码中tour.firstStep中name的值
          */
         'step' => 'stepname'
         )
